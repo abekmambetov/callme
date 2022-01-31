@@ -1,0 +1,14 @@
+1. Распакуйте архив с виджетом в директорию callme
+
+2. Добавьте следующие строки в тег head
+
+<link rel="import" href="callme/widjetTemplate.html">
+<link rel="stylesheet" type="text/css" href="callme/widjet.css">
+
+<script src="callme/callme.js"></script>
+
+<script>
+  window.CALL_ME_WIDJET_EMAILS = ["abc@admin.ru", "abc1@admin.ru"];
+  window.CALL_ME_WIDJET_SITE_NAME = "Тестовый Сайт";
+  window.CALL_ME_WIDJET_START_DELAY = 5;
+</script>		
